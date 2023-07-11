@@ -142,7 +142,7 @@ body {
 .offer {
     display: flex;
     justify-content: center;
-    margin: 30px 0px;
+    margin: 100px 0px;
     background-color: #E554730D;
     align-items: center;
     padding: 60px;
@@ -158,6 +158,7 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    text-align: center;
 }
 
 .offer-description {
@@ -172,6 +173,99 @@ body {
     color: #E55473;
 }
 
+
 .offer-img {
     padding-left: 50px;
 }
+
+/* instagram */
+
+.instagram {
+    padding-bottom: 30px;
+}
+
+.instagram-pic {
+    /* text-align: center; */
+    padding-bottom: 50px;
+    margin: 0px 240px;
+
+}
+
+.pics {
+    padding-right: 15px;
+}
+
+/* get the */
+.get-the{
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    width: 1440px;
+    height: 449px;
+    margin: 128px 246px;
+
+}
+
+.get-the-content{
+    text-align: center;
+}
+
+.get-the-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+
+}
+.get-the-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.input-box{
+    width: 700px;
+    height: 64px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 20px;
+    margin-right: 15px;
+
+}
+
+/* footer */
+.footer-main{
+    width: 100%;
+    height: 449px;
+    background: #111010;
+}
+
+.footer-sub{
+    text-align: center;
+}
+
+.footer-h{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
+}
+.span-footer-h{
+    color:#E55473 ;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.90);
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.footer-c{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+ }
