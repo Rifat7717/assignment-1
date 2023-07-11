@@ -86,9 +86,10 @@ body {
 /* 3flowers */
 .flowers {
     display: flex;
-     padding: 20p;
+    padding: 20p;
     align-items: center;
     justify-content: space-around;
+    margin: 0px 240px;
 }
 
 
@@ -99,11 +100,13 @@ body {
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     padding: 110px 76px 0 76px;
+    margin-right: 15px;
 
 }
 
-.flowers-text-pink, .flowers-text-blue, .flowers-text-green 
-  {
+.flowers-text-pink,
+.flowers-text-blue,
+.flowers-text-green {
 
     color: #272727;
     text-align: center;
@@ -114,24 +117,61 @@ body {
 
 }
 
-.blue{
+.blue {
     background-color: #0597A026;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     padding: 110px 76px 0 76px;
+    margin-right: 15px;
 
 }
 
 
-.green{
+.green {
     background-color: #477D1126;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     padding: 110px 76px 0 76px;
+    margin-right: 15px;
 
 }
 
+/* hot */
+.offer {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    background-color: #E554730D;
+    align-items: center;
+    padding: 60px;
+}
 
+.offer-text {
+    text-align: center;
+    padding-right: 50px;
 
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.span1 {
+    color: #E55473;
+}
+
+.offer-img {
+    padding-left: 50px;
+}
